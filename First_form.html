@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Profile</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<style>
+	body {
+		background-color: lightgreen;
+		padding: 30px;
+		border: black 3px solid;
+		margin: 60px;
+	}
+	p {
+		color:black;
+		text-align:center;
+		font-weight: bolder;
+
+		}
+</style>
+</head>
+<body>
+	<h1 style="text-align: center;">VIDYAVARDHAKA COLLEGE OF ENGINEERING</h1>
+		<h3><p style="color: blue">STUDENT PROFILE:</p></h3>
+		<div class="container"></div>
+
+		 Photo:
+		<img src="https://i.pcmag.com/imagery/reviews/03aizylUVApdyLAIku1AvRV-39.1605559903.fit_scale.size_300x220.png" alt="Profile Photo" />
+
+
+		<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4 position-relative">
+    <label for="validationTooltip01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationTooltip01" value="" required>
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4 position-relative">
+    <label for="validationTooltip02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationTooltip02" value="" required>
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4 position-relative">
+    <label for="validationTooltipUsername" class="form-label">Enter Your Email:</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+      <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+      <div class="invalid-tooltip">
+        Please choose a unique and valid username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 position-relative">
+    <label for="validationTooltip03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationTooltip03" required>
+    <div class="invalid-tooltip">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3 position-relative">
+    <label for="validationTooltip04" class="form-label">State</label>
+    <select class="form-select" id="validationTooltip04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>Karnataka</option>
+       <option>Tamilnadu</option>
+        <option>Telangana</option>
+         <option>Kerala</option>
+          <option>Andhrapradesh</option>
+    </select>
+    <div class="invalid-tooltip">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-3 position-relative">
+    <label for="validationTooltip05" class="form-label">Pincode</label>
+    <input type="text" class="form-control" id="validationTooltip05" required>
+    <div class="invalid-tooltip">
+      Please provide a valid Pincode.
+    </div>
+  </div>
+ 	<ol>
+ 		
+    <label>Gender:</label>
+ 		<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Male
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+  <label class="form-check-label" for="flexCheckChecked">
+    Female
+  </label>
+</div>
+</ol>
+
+
+
+<label>Hobby:</label>
+<div class="form-floating"></div>
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2"></label>
+</div>
+
+
+
+
+<label>Enter Your Address:</label>
+<div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">Address</label>
+</div>
+
+
+
+<ul>
+<li>Enter Your Phone Number:</li>
+<div class="col-md-3">
+    <label for="inputPassword2" class="visually-hidden">Phone Number</label>
+    <input type="number" class="form-control" id="inputPassword2" placeholder="Phone" max="10">
+  </div>
+
+
+<li>Select Your Branch:</li>
+  <div class="col-md-3 position-relative">
+    <label for="validationTooltip04" class="form-label"></label>
+    <select class="form-select" id="validationTooltip04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>Computer Science</option>
+       <option>Information Science</option>
+        <option>Mechanical Engineering</option>
+         <option>Electronics</option>
+          <option>Civil Engineering</option>
+    </select>
+    <div class="invalid-tooltip">
+      Please select a valid Branch.
+    </div>
+  </div>
+</ul>
+
+
+
+<ol>
+<li type="square">Create an Github Account <a href="https://www.google.com/search?q=github+sign+in&safe=active&rlz=1C1CHBF_enIN858IN858&sxsrf=ALeKk037BrH3cCC4EN2unsW_sAGxX1ic_A%3A1619099864376&ei=2ICBYMe9Ft_VrtoP4_S4uAo&oq=github&gs_lcp=Cgdnd3Mtd2l6EAEYATIHCCMQsAMQJzIUCAAQsAMQigMQtwMQ1AMQ5QIQiwMyFAgAELADEIoDELcDENQDEOUCEIsDMhQIABCwAxCKAxC3AxDUAxDlAhCLAzIUCAAQsAMQigMQtwMQ1AMQ5QIQiwMyFAgAELADEIoDELcDENQDEOUCEIsDMhQIABCwAxCKAxC3AxDUAxDlAhCLAzIRCAAQsAMQigMQtwMQ5QIQiwMyEQgAELADEIoDELcDEOUCEIsDMhQIABCwAxCKAxC3AxDUAxDlAhCLA1AAWABgmoMBaAFwAngAgAHMAogBzAKSAQMzLTGYAQCqAQdnd3Mtd2l6yAEKuAEBwAEB&sclient=gws-wiz">Click here to register</a></li>
+
+<li type="square">Create an Linked-In Account <a href="https://www.google.com/search?q=login+to+linkedin&safe=active&rlz=1C1CHBF_enIN858IN858&sxsrf=ALeKk02kFqQG7__lXHd1EJlxvlfNjuszxg%3A1619100393647&ei=6YKBYKGAJ5mK4-EP_rmmmA8&oq=login+&gs_lcp=Cgdnd3Mtd2l6EAEYADIECAAQQzIHCAAQsQMQQzIKCAAQsQMQQxCLAzILCAAQsQMQgwEQiwMyBwgAEEMQiwMyBwgAEEMQiwMyCwgAELEDEIMBEIsDMgoIABCxAxCDARBDMgcIABBDEIsDMg0IABCxAxCDARBDEIsDOgcIIxDqAhAnOg0ILhDHARCjAhDqAhAnOgQIIxAnOgUIABCRAjoICC4QsQMQiwM6CAgAELEDEIsDOg0ILhCxAxDHARCjAhBDOggIABCxAxCDAToFCAAQsQNQiypY-zxg3UtoAXACeACAAcgBiAG3B5IBBTAuNi4xmAEAoAEBqgEHZ3dzLXdperABCrgBA8ABAQ&sclient=gws-wiz">Click here to register</a></li>
+</ol>
+
+
+
+
+
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+
+
+ 
+
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+			<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>
